@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Scroll Circle</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="elementor">
+      <div class="testimonial-carousel">
+        <div class="container">
+          <div class="scroll-container">
+            <div class="testimonial-circle-container" id="circleContainer">
+              <!-- Changed from .circle-container -->
+              <section class="section">
+                <div class="content">
+                  <div class="quote-icon">
+                    <svg fill="#000000" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule: evenodd; clip-rule: evenodd; stroke-linejoin: round; stroke-miterlimit: 2">
+                      <path
+                        id="quote-1"
+                        d="M27.194,12l0,8.025c-2.537,0.14 -4.458,0.603 -5.761,1.39c-1.304,0.787 -2.22,2.063 -2.749,3.829c-0.528,1.766 -0.793,4.292 -0.793,7.579l9.303,0l0,19.145l-19.081,0l0,-18.201c0,-7.518 1.612,-13.025 4.836,-16.522c3.225,-3.497 7.973,-5.245 14.245,-5.245Zm28.806,0l0,8.025c-2.537,0.14 -4.457,0.586 -5.761,1.338c-1.304,0.751 -2.247,2.028 -2.828,3.829c-0.581,1.8 -0.872,4.344 -0.872,7.631l9.461,0l0,19.145l-19.186,0l0,-18.201c0,-7.518 1.603,-13.025 4.809,-16.522c3.207,-3.497 7.999,-5.245 14.377,-5.245Z"
+                      />
+                    </svg>
+                  </div>
+                  <img src="https://i.pinimg.com/736x/9f/db/f4/9fdbf4c61a5e5e91878cb7e59655e4a2.jpg" alt="John Doe" class="avatar" />
+                  <div class="user-info">
+                    <div class="user-header">
+                      <h3>Lucy Chen</h3>
+                      <span class="job-title">Fashion Brand Owner</span>
+                    </div>
+                    <p class="testimonial">"Professional workflow and process helped me better understand brand building."</p>
+                  </div>
+                </div>
+              </section>
+
+              <section class="section">
+                <div class="content">
+                  <div class="quote-icon">
+                    <svg fill="#000000" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule: evenodd; clip-rule: evenodd; stroke-linejoin: round; stroke-miterlimit: 2">
+                      <path
+                        id="quote-1"
+                        d="M27.194,12l0,8.025c-2.537,0.14 -4.458,0.603 -5.761,1.39c-1.304,0.787 -2.22,2.063 -2.749,3.829c-0.528,1.766 -0.793,4.292 -0.793,7.579l9.303,0l0,19.145l-19.081,0l0,-18.201c0,-7.518 1.612,-13.025 4.836,-16.522c3.225,-3.497 7.973,-5.245 14.245,-5.245Zm28.806,0l0,8.025c-2.537,0.14 -4.457,0.586 -5.761,1.338c-1.304,0.751 -2.247,2.028 -2.828,3.829c-0.581,1.8 -0.872,4.344 -0.872,7.631l9.461,0l0,19.145l-19.186,0l0,-18.201c0,-7.518 1.603,-13.025 4.809,-16.522c3.207,-3.497 7.999,-5.245 14.377,-5.245Z"
+                      />
+                    </svg>
+                  </div>
+                  <img src="https://i.pinimg.com/736x/8c/6d/db/8c6ddb5fe6600fcc4b183cb2ee228eb7.jpg" alt="Jane Smith" class="avatar" />
+                  <div class="user-info">
+                    <div class="user-header">
+                      <h3>Emily Smith</h3>
+                      <span class="job-title">Organic Cosmetics Brand Owner</span>
+                    </div>
+                    <p class="testimonial">"The logo is not only beautiful but also meaningful, making my brand stand out."</p>
+                  </div>
+                </div>
+              </section>
+
+              <section class="section">
+                <div class="content">
+                  <div class="quote-icon">
+                    <svg fill="#000000" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule: evenodd; clip-rule: evenodd; stroke-linejoin: round; stroke-miterlimit: 2">
+                      <path
+                        id="quote-1"
+                        d="M27.194,12l0,8.025c-2.537,0.14 -4.458,0.603 -5.761,1.39c-1.304,0.787 -2.22,2.063 -2.749,3.829c-0.528,1.766 -0.793,4.292 -0.793,7.579l9.303,0l0,19.145l-19.081,0l0,-18.201c0,-7.518 1.612,-13.025 4.836,-16.522c3.225,-3.497 7.973,-5.245 14.245,-5.245Zm28.806,0l0,8.025c-2.537,0.14 -4.457,0.586 -5.761,1.338c-1.304,0.751 -2.247,2.028 -2.828,3.829c-0.581,1.8 -0.872,4.344 -0.872,7.631l9.461,0l0,19.145l-19.186,0l0,-18.201c0,-7.518 1.603,-13.025 4.809,-16.522c3.207,-3.497 7.999,-5.245 14.377,-5.245Z"
+                      />
+                    </svg>
+                  </div>
+                  <img src="https://i.pinimg.com/736x/0b/97/6f/0b976f0a7aa1aa43870e1812eee5a55d.jpg" alt="Mike Johnson" class="avatar" />
+                  <div class="user-info">
+                    <div class="user-header">
+                      <h3>Robert Wilson</h3>
+                      <span class="job-title">Furniture Store Founder</span>
+                    </div>
+                    <p class="testimonial">"The design is not only beautiful but also user-friendly across all platforms. I'm extremely satisfied!"</p>
+                  </div>
+                </div>
+              </section>
+
+              <section class="section">
+                <div class="content">
+                  <div class="quote-icon">
+                    <svg fill="#000000" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule: evenodd; clip-rule: evenodd; stroke-linejoin: round; stroke-miterlimit: 2">
+                      <path
+                        id="quote-1"
+                        d="M27.194,12l0,8.025c-2.537,0.14 -4.458,0.603 -5.761,1.39c-1.304,0.787 -2.22,2.063 -2.749,3.829c-0.528,1.766 -0.793,4.292 -0.793,7.579l9.303,0l0,19.145l-19.081,0l0,-18.201c0,-7.518 1.612,-13.025 4.836,-16.522c3.225,-3.497 7.973,-5.245 14.245,-5.245Zm28.806,0l0,8.025c-2.537,0.14 -4.457,0.586 -5.761,1.338c-1.304,0.751 -2.247,2.028 -2.828,3.829c-0.581,1.8 -0.872,4.344 -0.872,7.631l9.461,0l0,19.145l-19.186,0l0,-18.201c0,-7.518 1.603,-13.025 4.809,-16.522c3.207,-3.497 7.999,-5.245 14.377,-5.245Z"
+                      />
+                    </svg>
+                  </div>
+                  <img src="https://i.pinimg.com/736x/c9/ad/49/c9ad4938aa317a6d8ba9efd8ba82221a.jpg" alt="Sarah Williams" class="avatar" />
+                  <div class="user-info">
+                    <div class="user-header">
+                      <h3>Michael Anderson</h3>
+                      <span class="job-title">Tech Startup CEO</span>
+                    </div>
+                    <p class="testimonial">"HomeNest listened to our ideas and created a creative, professional logo that perfectly captures our brand spirit!"</p>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+          <div class="scroll-indicator" id="scrollIndicator"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
